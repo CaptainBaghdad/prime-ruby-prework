@@ -2,8 +2,8 @@
 
 def prime?(num)
   prime = true
-    for r in 2..Math.sqrt(self).to_i
-      if (self % r == 0)
+    for r in 2..Math.sqrt(num).to_i
+      if (num % r == 0)
         prime = false
         break
       end
